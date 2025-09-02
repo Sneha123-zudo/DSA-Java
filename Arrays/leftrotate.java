@@ -9,6 +9,8 @@ public class leftrotate{
         }
         arr[n-1] = temp;
     }
+
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
