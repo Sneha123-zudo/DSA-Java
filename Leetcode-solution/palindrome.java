@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class palindrome {
     public boolean isPalindrome(int x) {
         int rev = 0 , n;
         n = x;
@@ -13,7 +13,7 @@ class Solution {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        Solution obj = new Solution();
+        palindrome obj = new palindrome();
         if(obj.isPalindrome(n)){
             System.out.println("Palindrome");
         }
