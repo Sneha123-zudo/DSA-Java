@@ -16,8 +16,7 @@ class ArmstrongNum {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int x = sc.nextInt();
-        ArmstrongNum obj = new ArmstrongNum();
-        if(obj.armstrongNumber(x)){
+        if(armstrongNumber(x)){
            System.out.print("Armstrong Number");
         }
         else{
