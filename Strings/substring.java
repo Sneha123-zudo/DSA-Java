@@ -6,7 +6,7 @@ public class substring{
         String str = sc.nextLine();
         for(int i = 0; i<=3;i++){
             for(int j = i+1; j<=4; j++){
-                System.err.print(str.substring(i,j) + " ");
+                System.out.print(str.substring(i,j) + " ");
             }
         }
 
