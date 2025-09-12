@@ -19,6 +19,6 @@ public class duplicates {
                 x++;
             }
         }
-            System.err.println("New Array: " + x + 1 + " ");
+            System.out.println("New Array: " + x + 1 + " ");
         }
     }
